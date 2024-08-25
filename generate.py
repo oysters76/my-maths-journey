@@ -33,6 +33,6 @@ for f in all_folders:
     if f not in ROOT_FOLDERS:
         log(f + " folder was rejected")
         continue 
-    process_folder(os.path.join(".", "algebra"))
+    process_folder(os.path.join(".", f))
     
 
